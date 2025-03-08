@@ -1,0 +1,84 @@
+body{
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+.x{
+   width: 20px;
+   height: 20px !important;
+}
+.container{
+    flex: 1;
+}
+ .navbar{
+    height:4rem;
+ }
+ .add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+ }
+ .fa-squarespace{
+    color:#fe424d;
+    font-size: 2rem;
+ }
+ .nav-link{
+    color:#222222 !important;
+ }
+ .listing-link{
+    text-decoration: none !important;
+
+ }
+ .card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+ }
+ .f-info-inks{
+    text-decoration: none;
+    color: #222222;
+ }
+ .f-info-inks:hover{
+    text-decoration: underline;
+ }
+ .f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+ }
+ .f-info-links{
+    width: 100%;
+ }
+ .f-info-socials{
+    width: 100%;
+    font-size: 1.2rem;
+ }
+ .f-info-socials i{
+    margin-right: 0.5rem;
+ }
+ .list-card{
+    border: none !important;
+    margin-bottom: 1rem;
+ }
+ .card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+ }
+ .card-body{
+    padding: 0 !important;
+ }
+ .card-text{
+
+ }
+/* Show Page */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+
+}
